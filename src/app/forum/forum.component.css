@@ -1,0 +1,19 @@
+.container {
+    background-color: #f8f9fa; /* Fondo del contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #343a40; /* Color del título */
+  }
+  
+  .list-group-item {
+    background-color: #ffffff; /* Fondo de los elementos de la lista */
+    color: #343a40; /* Color del texto */
+  }
+  
+  .list-group-item:hover {
+    background-color: #e9ecef; /* Fondo al pasar el mouse */
+  }
+  

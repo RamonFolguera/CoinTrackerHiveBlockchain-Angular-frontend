@@ -1,0 +1,9 @@
+<div class="container mt-5">
+    <h1 class="mb-4">Foro</h1>
+    <div class="list-group">
+      <a [routerLink]="['/forum/thread', i]" class="list-group-item list-group-item-action" *ngFor="let thread of threads; let i = index">
+        {{ thread.title }}
+      </a>
+    </div>
+  </div>
+  

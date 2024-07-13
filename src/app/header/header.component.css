@@ -1,0 +1,14 @@
+.jumbotron {
+    background-size: cover;
+    background-color: #6c757d; /* Color de fondo si no hay imagen */
+    color: #ffffff; /* Color del texto */
+  }
+  
+  .jumbotron h1 {
+    color: #f8f9fa; /* Color del título */
+  }
+  
+  .jumbotron p {
+    color: #e9ecef; /* Color del subtítulo */
+  }
+  

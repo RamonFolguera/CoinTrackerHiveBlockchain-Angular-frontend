@@ -1,0 +1,20 @@
+.container {
+    background-color: #f8f9fa; /* Fondo del contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #343a40; /* Color del título */
+  }
+  
+  .card {
+    background-color: #ffffff; /* Fondo de la tarjeta */
+    color: #343a40; /* Color del texto */
+    margin-top: 15px;
+  }
+  
+  .card:hover {
+    background-color: #e9ecef; /* Fondo al pasar el mouse */
+  }
+  

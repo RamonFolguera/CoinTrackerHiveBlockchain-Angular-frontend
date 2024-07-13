@@ -1,0 +1,9 @@
+<div class="container mt-5">
+    <h2>{{ threadTitle }}</h2>
+    <app-forum-thread-post *ngFor="let post of posts" [post]="post"></app-forum-thread-post>
+    <div class="mt-4">
+      <textarea class="form-control" placeholder="Write a reply..."></textarea>
+      <button class="btn btn-primary mt-2">Submit</button>
+    </div>
+  </div>
+  
