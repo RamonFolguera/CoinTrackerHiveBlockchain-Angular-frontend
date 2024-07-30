@@ -2,6 +2,7 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HiveService } from '../hive.service';
+import { AuthService } from '../auth.service';
 import { Chart, registerables } from 'chart.js';
 
 Chart.register(...registerables);
@@ -35,9 +36,13 @@ export class TokensComponent implements OnInit, AfterViewInit {
   selectedTokens: string[] = [];
   showFilterOptions: boolean = false;
 
-  constructor(private hiveService: HiveService) {}
+  constructor(private hiveService: HiveService, private authService: AuthService) {}
 
   ngOnInit(): void {
+    this.username = this.authService.getUser();
+    if (this.username) {
+      this.getTokens();
+    }
     const savedTokens = localStorage.getItem('selectedTokens');
     if (savedTokens) {
       this.selectedTokens = JSON.parse(savedTokens);

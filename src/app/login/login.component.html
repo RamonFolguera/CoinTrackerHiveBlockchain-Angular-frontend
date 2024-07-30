@@ -1,0 +1,7 @@
+<div class="login-container">
+    <h2>Iniciar sesión con Hive Keychain</h2>
+    <input type="text" [(ngModel)]="username" placeholder="Nombre de usuario">
+    <button (click)="login()">Iniciar sesión</button>
+    <div *ngIf="error" class="error">{{ error }}</div>
+  </div>
+  

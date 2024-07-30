@@ -1,0 +1,21 @@
+/* src/app/login/login.component.css */
+.login-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+  }
+  
+  .error {
+    color: red;
+  }
+  

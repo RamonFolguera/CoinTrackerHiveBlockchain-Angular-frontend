@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #161b22;
+  }
+  
+  .navbar-brand, .nav-link {
+    color: #c9d1d9 !important;
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+  h2 {
+    color: #58a6ff;
+  }
+  
+  input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #30363d;
+    border-radius: 5px;
+    background-color: #0d1117;
+    color: #c9d1d9;
+  }
+  
+  button {
+    background-color: #238636;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2ea043;
+  }
+  
+  .error {
+    color: #ff7b72;
+  }
+  
+  .chart-container {
+    background-color: #161b22;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  

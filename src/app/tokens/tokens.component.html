@@ -1,11 +1,4 @@
 <div class="container mt-5">
-  <h2>Track Your Hive Tokens</h2>
-  <div class="form-group">
-    <label for="username">Username:</label>
-    <input type="text" id="username" [(ngModel)]="username" class="form-control" placeholder="Enter Hive username">
-  </div>
-  <button class="btn btn-primary" (click)="getTokens()">Get Tokens</button>
-
   <div *ngIf="loading" class="spinner-container">
     <div class="spinner"></div>
     <p>Sus tokens están cargándose...</p>
